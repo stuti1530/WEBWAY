@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>College TPO Portal — Training | Placements | Higher Studies</title>
+    <meta
+      name="description"
+      content="Official Training, Placement & Higher Studies portal for our college — opportunities, preparation, recruiters, events and guidance."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="glass">
+      <div class="container nav">
+        <div class="brand" aria-label="Portal brand">
+          <div class="logo" aria-hidden="true"><span>TPO</span></div>
+          <div>
+            <div style="font-weight: 800; font-size: 1.05rem">
+              College Career Portal
+            </div>
+            <div class="pill" style="margin-top: 0.15rem">
+              Training • Placements • Higher Studies
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#placements">Placements</a></li>
+            <li><a href="#higher-studies">Higher Studies</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero container">
+        <div class="wrap">
+          <div>
+            <span class="badge"
+              ><span class="pill">2025 Drive</span> <b>Now Open</b></span
+            >
+            <h1>
+              Launch your career with confidence. <br />Grow through
+              <span
+                style="
+                  background: var(--grad-strong);
+                  -webkit-background-clip: text;
+                  background-clip: text;
+                  color: transparent;
+                "
+                >training, placements & higher studies</span
+              >.
+            </h1>
+            <p class="lead">
+              A one-stop, student-first portal from our Training & Placement
+              Office (TPO). Explore curated internships & jobs, get
+              placement-ready with skill tracks, and plan your
+              MS/MTech/Management journey with mentorship.
+            </p>
+            <div class="hero-cta">
+              <a class="btn primary" href="#training">Explore Programs</a>
+              <a class="btn" href="#placements">Recruiting Companies</a>
+              <a class="btn" href="#higher-studies">Higher Studies Guidance</a>
+            </div>
+            <div class="chips" aria-label="Highlights">
+              <span class="chip">100+ Hiring Partners</span>
+              <span class="chip">Interview Prep</span>
+              <span class="chip">DSA • Dev • Core</span>
+              <span class="chip">GRE/GATE/CAT</span>
+              <span class="chip">Alumni Mentors</span>
+            </div>
+            <div class="stats" role="list" aria-label="Key statistics">
+              <div class="stat" role="listitem">
+                <h3>96%</h3>
+                <p>Placement success (2024)</p>
+              </div>
+              <div class="stat" role="listitem">
+                <h3>₹32 LPA</h3>
+                <p>Highest CTC</p>
+              </div>
+              <div class="stat" role="listitem">
+                <h3>250+</h3>
+                <p>Offers made</p>
+              </div>
+              <div class="stat" role="listitem">
+                <h3>120+</h3>
+                <p>Alumni mentors</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="hero-card glass">
+            <h3 style="margin: 0 0 0.6rem">Quick Apply</h3>
+            <p class="note" style="margin-top: 0">
+              Create your profile once. Use it for internships, jobs & research
+              roles.
+            </p>
+            <form id="apply" aria-label="Quick apply form">
+              <div class="form-row">
+                <div>
+                  <label for="name">Full name</label>
+                  <input
+                    id="name"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">College email</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="name@college.edu"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div>
+                  <label for="branch">Branch</label>
+                  <select id="branch" name="branch" required>
+                    <option value="" disabled selected>Select branch</option>
+                    <option>CSE</option>
+                    <option>IT</option>
+                    <option>ECE</option>
+                    <option>EEE</option>
+                    <option>ME</option>
+                    <option>CE</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="year">Year</label>
+                  <select id="year" name="year" required>
+                    <option value="" disabled selected>Select year</option>
+                    <option>1st</option>
+                    <option>2nd</option>
+                    <option>3rd</option>
+                    <option>4th</option>
+                  </select>
+                </div>
+              </div>
+              <div>
+                <label for="resume">Resume link</label>
+                <input
+                  id="resume"
+                  name="resume"
+                  type="url"
+                  placeholder="https://drive.google.com/..."
+                />
+              </div>
+              <div style="display: flex; gap: 0.6rem; margin-top: 1rem">
+                <button class="cta-btn" type="submit">Submit</button>
+                <button class="btn" type="reset">Reset</button>
+              </div>
+              <p class="note" style="margin-top: 0.6rem">
+                By submitting, you agree to our placement policy.
+              </p>
+            </form>
+          </div> -->
+        </div>
+      </section>
+
+      <section id="training" class="container">
+        <div class="section-head">
+          <h2>Training Programs</h2>
+          <p>
+            Hands-on, mentor-led tracks to make you industry-ready. Choose a
+            path, earn badges, and showcase projects.
+          </p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card glass">
+            <span class="eyebrow">Placement Prep</span>
+            <h3>DSA & Problem Solving</h3>
+            <p>
+              Structured roadmap with contests, mock tests, and daily practice
+              goals. Covers arrays → graphs → DP.
+            </p>
+            <ul>
+              <li>Weekly mock interviews</li>
+              <li>Company-wise question sets</li>
+              <li>Resume proof-of-work</li>
+            </ul>
+            <a class="btn" href="#">View syllabus</a>
+          </article>
+          <article class="card glass">
+            <span class="eyebrow">Engineering</span>
+            <h3>Full‑Stack Web Development</h3>
+            <p>
+              Modern web stack, clean code practices, and deploy-ready projects
+              with CI/CD and testing.
+            </p>
+            <ul>
+              <li>HTML • CSS • JS fundamentals</li>
+              <li>Frontend frameworks, REST, auth</li>
+              <li>Capstone with real users</li>
+            </ul>
+            <a class="btn" href="#">View syllabus</a>
+          </article>
+          <article class="card glass">
+            <span class="eyebrow">Core & Systems</span>
+            <h3>Embedded/IoT & Core Domains</h3>
+            <p>
+              Signals, microcontrollers, CAD, manufacturing basics; build
+              end‑to‑end prototypes and reports.
+            </p>
+            <ul>
+              <li>Toolchains & debugging</li>
+              <li>Industry safety & QA</li>
+              <li>Showcase day</li>
+            </ul>
+            <a class="btn" href="#">View syllabus</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="placements" class="container">
+        <div class="section-head">
+          <h2>Placements</h2>
+          <p>
+            Transparent, student-centric process with clear eligibility,
+            timelines, and support at every step.
+          </p>
+        </div>
+        <div class="grid cols-2">
+          <div class="card glass">
+            <span class="eyebrow">Process</span>
+            <h3>How it works</h3>
+            <div class="timeline">
+              <div class="step">
+                <div class="dot" aria-hidden="true"></div>
+                <strong>Profile & Eligibility</strong>
+                <p class="note">
+                  Complete your profile; verify CGPA/backlogs; sign policy.
+                </p>
+              </div>
+              <div class="step">
+                <div class="dot" aria-hidden="true"></div>
+                <strong>Company Registration</strong>
+                <p class="note">
+                  Opt-in for drives; read JDs; prep with company sheets.
+                </p>
+              </div>
+              <div class="step">
+                <div class="dot" aria-hidden="true"></div>
+                <strong>Assessments & Interviews</strong>
+                <p class="note">
+                  Aptitude/tech rounds; HR support & mock interviews.
+                </p>
+              </div>
+              <div class="step">
+                <div class="dot" aria-hidden="true"></div>
+                <strong>Offer & Onboarding</strong>
+                <p class="note">
+                  Track status; accept offers; alumni buddy program.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card glass">
+            <span class="eyebrow">Preparation</span>
+            <h3>Resources</h3>
+            <ul>
+              <li>Aptitude: Quant, LRDI, verbal with weekly sprints</li>
+              <li>Technical: CS fundamentals & core domain kits</li>
+              <li>Interview: STAR stories, resume reviews, mocks</li>
+              <li>Policy: One‑student‑one‑offer, eligibility matrix</li>
+            </ul>
+            <a class="btn" href="#">Placement Policy (PDF)</a>
+          </div>
+        </div>
+
+        <div style="margin-top: 1.2rem">
+          <span class="eyebrow">Recruiters</span>
+          <h3 style="margin: 0.3rem 0 1rem">Our Hiring Partners</h3>
+          <div class="logo-grid">
+            <div class="logo-tile">
+              <svg
+                width="90"
+                height="30"
+                viewBox="0 0 90 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="90" height="30" rx="8" fill="#1a244d" />
+                <text
+                  x="50%"
+                  y="50%"
+                  dominant-baseline="middle"
+                  text-anchor="middle"
+                  fill="#7bffcc"
+                  font-family="Inter"
+                  font-weight="700"
+                >
+                  <a
+                    href="https://www.cisco.com/site/in/en/index.html#tabs-0ac7ca25bf-item-7aee8d70e3-tab"
+                    class="company"
+                  >
+                    CisCo
+                  </a>
+                </text>
+              </svg>
+            </div>
+            <div class="logo-tile">
+              <svg
+                width="90"
+                height="30"
+                viewBox="0 0 90 30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="90" height="30" rx="8" fill="#1f274f" />
+                <text
+                  x="50%"
+                  y="50%"
+                  dominant-baseline="middle"
+                  text-anchor="middle"
+                  fill="#6ea8fe"
+                  font-family="Inter"
+                  font-weight="700"
+                >
+                  <a href="https://www.intuit.com/in/" class="company">
+                    Intuit
+                  </a>
+                </text>
+              </svg>
+            </div>
+            <div class="logo-tile">
+              <svg
+                width="90"
+                height="30"
+                viewBox="0 0 90 30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="90" height="30" rx="8" fill="#1a244d" />
+                <text
+                  x="50%"
+                  y="50%"
+                  dominant-baseline="middle"
+                  text-anchor="middle"
+                  fill="#ffd166"
+                  font-family="Inter"
+                  font-weight="700"
+                >
+                  <a href="https://www.citi.com/" class="company">Citi</a>
+                </text>
+              </svg>
+            </div>
+            <div class="logo-tile">
+              <svg
+                width="90"
+                height="30"
+                viewBox="0 0 90 30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="90" height="30" rx="8" fill="#1f274f" />
+                <text
+                  x="50%"
+                  y="50%"
+                  dominant-baseline="middle"
+                  text-anchor="middle"
+                  fill="#ff7ad9"
+                  font-family="Inter"
+                  font-weight="700"
+                >
+                  <a href="https://www.caterpillar.com/en.html" class="company">
+                    Caterpillar
+                  </a>
+                </text>
+              </svg>
+            </div>
+            <div class="logo-tile">
+              <svg
+                width="90"
+                height="30"
+                viewBox="0 0 90 30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="90" height="30" rx="8" fill="#1a244d" />
+                <text
+                  x="50%"
+                  y="50%"
+                  dominant-baseline="middle"
+                  text-anchor="middle"
+                  fill="#7bffcc"
+                  font-family="Inter"
+                  font-weight="700"
+                >
+                  MakeIt
+                </text>
+              </svg>
+            </div>
+            <div class="logo-tile">
+              <svg
+                width="90"
+                height="30"
+                viewBox="0 0 90 30"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect width="90" height="30" rx="8" fill="#1f274f" />
+                <text
+                  x="50%"
+                  y="50%"
+                  dominant-baseline="middle"
+                  text-anchor="middle"
+                  fill="#6ea8fe"
+                  font-family="Inter"
+                  font-weight="700"
+                >
+                  Finite
+                </text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="higher-studies" class="container">
+        <div class="section-head">
+          <h2>Higher Studies</h2>
+          <p class="hide">
+            Guidance for MS/MTech/PhD/Management — exams, universities, SoP/LOR,
+            scholarships, and timelines.
+          </p>
+        </div>
+        <div class="grid cols-3">
+          <article class="card glass">
+            <span class="eyebrow">Exams</span>
+            <h3>GRE / GATE / CAT</h3>
+            <p class="hide">
+              Weekly plans, practice sets, and doubt clearing. Track your
+              progress with smart analytics.
+            </p class="hide">
+            <a class="btn" href="#">See plans</a>
+          </article>
+          <article class="card glass">
+            <span class="eyebrow">Applications</span>
+            <h3>SoP • LOR • CV Clinics</h3>
+            <p class="hide">
+              1:1 feedback with alumni mentors. Strong narratives tailored to
+              programs and faculty interests.
+            </p class="hide">
+            <a class="btn" href="#">Book a slot</a>
+          </article>
+          <article class="card glass">
+            <span class="eyebrow">Funding</span>
+            <h3>Scholarships & RA/TA</h3>
+            <p class="hide">
+              Database of scholarships with alerts; guidance for assistantships
+              and faculty reach‑outs.
+            </p class="hide">
+            <a class="btn" href="#">Browse scholarships</a>
+          </article>
+        </div>
+        <div id="exam-modal" class="modal">
+          <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Select an Exam</h2>
+            <div class="exam-options">
+              <a href="https://www.gre.org/" target="_blank" class="modal-link"
+                >GRE</a
+              >
+              <a
+                href="https://gate.iisc.ac.in/"
+                target="_blank"
+                class="modal-link"
+                >GATE</a
+              >
+              <a href="https://iimcat.ac.in/" target="_blank" class="modal-link"
+                >CAT</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="events" class="container">
+        <div class="section-head">
+          <h2>Upcoming Events & Drives</h2>
+          <p class="hide">
+            Pre‑placement talks, coding contests, resume clinics, and grad
+            school panels.
+          </p class="hide">
+        </div>
+        <div class="grid cols-3">
+          <article class="card glass">
+            <span class="eyebrow">Drive</span>
+            <h3>Cloudly Campus Hiring</h3>
+            <p class="note">Sep 10 • 9:00 AM • Main Auditorium</p>
+            <p class="hide">Roles: SDE‑1, QA • Eligibility: 7.0+ CGPA, no active backlogs</p>
+            <a class="btn" href="#">Register</a>
+          </article>
+          <article class="card glass">
+            <span class="eyebrow">Workshop</span>
+            <h3>DSA Mock Interview Day</h3>
+            <p class="note">Sep 14 • 2:00 PM • Lab‑3</p>
+            <p class="hide">
+              Panel with seniors and alumni. Get actionable feedback and
+              resources.
+            </p>
+            <a class="btn" href="#">Book slot</a>
+          </article>
+          <article class="card glass">
+            <span class="eyebrow">Panel</span>
+            <h3>GRE vs GATE: What’s right for you?</h3>
+            <p class="note">Sep 21 • 5:00 PM • Seminar Hall</p>
+            <p class="hide">Alumni share experiences, costs, timelines, and returns.</p>
+            <a class="btn" href="#">Save seat</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="section-head">
+          <h2>What our students say</h2>
+          <p class="hide">Stories of growth from classrooms to careers and grad schools.</p>
+        </div>
+        <div class="grid cols-3">
+          <blockquote class="card glass">
+            <p class="hide">
+              “The mock interviews and DSA roadmap were exactly what I needed.
+              Landed SDE‑1 at TechCo!”
+            </p>
+            <footer class="note">— Ananya, CSE ’24</footer>
+          </blockquote>
+          <blockquote class="card glass">
+            <p class="hide">
+              “SOP review + faculty mapping helped me secure an admit with
+              scholarship.”
+            </p>
+            <footer class="note">— Harsh, ECE ’23, MS @ DataLab Univ</footer>
+          </blockquote>
+          <blockquote class="card glass">
+            <p class="hide">
+              “Clarity on policy and transparent process — got two offers and
+              chose my best fit.”
+            </p>
+            <footer class="note">— Riya, IT ’24</footer>
+          </blockquote>
+        </div>
+      </section>
+
+      <section id="contact" class="container">
+        <div class="section-head">
+          <h2>Contact TPO</h2>
+          <p class="hide">
+            We’re here to help. Reach out for recruitments, MoUs, training
+            collaborations, and student support.
+          </p>
+        </div>
+        <div class="grid cols-2">
+          <div class="card glass">
+            <h3>Office</h3>
+            <p class="hide">
+              Training & Placement Office<br />A‑Block, 2nd Floor, College
+              Campus
+            </p>
+            <p class="hide">
+              Email: <a href="mailto:tpo@college.edu">tpo@college.edu</a><br />
+              Phone: <a href="tel:+910000000000">+91 00000 00000</a>
+            </p>
+            <p class="hide"><span class="pill">Mon–Fri • 9:30 AM – 5:30 PM</span></p>
+            <h4>Connect</h4>
+            <p class="chips">
+              <a class="chip" href="#">LinkedIn</a>
+              <a class="chip" href="#">YouTube</a>
+              <a class="chip" href="#">Twitter</a>
+            </p>
+          </div>
+          <form class="card glass" aria-label="Contact form">
+            <h3>Send a message</h3>
+            <div class="form-row">
+              <div>
+                <label for="cname">Your name</label>
+                <input id="cname" placeholder="Full name" required />
+              </div>
+              <div>
+                <label for="cemail">Email</label>
+                <input
+                  id="cemail"
+                  type="email"
+                  placeholder="you@college.edu"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div>
+                <label for="ctype">I’m a</label>
+                <select id="ctype">
+                  <option>Student</option>
+                  <option>Recruiter</option>
+                  <option>Alumnus</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <label for="cmessage">Message</label>
+              <textarea
+                id="cmessage"
+                placeholder="Your message..."
+                rows="4"
+              ></textarea>
+            </div>
+            <button class="cta-btn" type="submit" style="margin-top: 1rem">
+              Send
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="container">
+      <hr
+        style="border: none; border-top: 1px solid rgba(255, 255, 255, 0.1)"
+      />
+      <div class="foot-grid" style="margin-top: 2rem">
+        <div>
+          <div class="brand">
+            <div class="logo"><span>TPO</span></div>
+            <div>College Career Portal</div>
+          </div>
+          <p class="note" style="margin-top: 0.5rem">
+            Guidance for your training, placements, and higher studies journey.
+          </p>
+          <p class="note">© 2024 College. All rights reserved.</p>
+        </div>
+        <div>
+          <h4>Programs</h4>
+          <p class="hide">
+            <a href="#training">Training</a><br />
+            <a href="#placements">Placements</a><br />
+            <a href="#higher-studies">Higher Studies</a>
+          </p>
+        </div>
+        <div>
+          <h4>Resources</h4>
+          <p class="hide">
+            <a href="#events">Events</a><br />
+            <a href="#">FAQ</a><br />
+            <a href="#">Announcements</a>
+          </p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p class="hide">
+            <a href="mailto:tpo@college.edu">tpo@college.edu</a><br />
+            <a href="tel:+910000000000">+91 00000 00000</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
